@@ -1,0 +1,9 @@
+body{
+    background-image: url(/faruk-kaymak-CNVvDjVDiVI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+.div1{
+    background-color: aqua; color: blueviolet;
+}

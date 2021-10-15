@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    padding: 10px;
+}
+.logo{
+    color: white;
+    width: 30%;
+    text-shadow: 5px 5px 5px pink;
+}
+.anc3 {
+    color: aliceblue;
+    text-decoration: none;
+    width: 70%;
+    margin: 10px;
+}
+.anc3:hover {
+    color: blueviolet;
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+aside {
+    height: 100%;
+    width: 30%;
+background-color: blueviolet;
+}    
+
+.anc {
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    border-bottom: 3px solid white;
+}
+
+.anc:hover {
+    color: blueviolet;
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.bottom {
+    background-color: pink;
+    color: blueviolet;
+}
+
+.anc2 {
+    text-decoration: none;
+    padding: 10px;
+}
+
+li {
+    padding: 5px;
+    list-style: none;
+    
+}
+
+.anc2:hover {
+    color: blueviolet;
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+.nm{
+    text-shadow: 5px 5px 5px pink;
+}

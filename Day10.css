@@ -1,0 +1,10 @@
+.parent{
+    border: 5px solid blueviolet;
+    margin: 0px 0px 0px;
+    width: 40%;
+}
+
+.child_2{
+border: 3px solid red;
+width: 30%;
+margin: 40px 50px;

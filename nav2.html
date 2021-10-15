@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+nav{
+    background-color: red;
+}
+.nlist ul li {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+}
+.nlist ul li a{
+    text-decoration: none;
+}
+.nlist ul li a:hover{
+    background-color: aqua;
+    color: blue;
+}
+.sublist{
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.nlist ul li a:hover .sublist ul li a{
+    display: block;
+}
+@media only screen and(max-width: 600px){
+  body{
+    background-color: blue;
+}
+}
+@media only screen and (max-width:768px ){
+    body{
+    background-color: red;
+}
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nlist">
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="" class="dlist">contact us</a>
+                <div  class="sublist">
+                <ul>
+                    <li><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                </ul>
+            </div>
+            </li>
+            <li><a href="">Services</a></li>
+            <li><a href="">about us</a></li>
+        </ul>
+    </div>
+    </nav>
+</body>
+</html>

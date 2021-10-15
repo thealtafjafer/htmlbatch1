@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding:0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: maroon;
+ 
+    border-radius: 30px;
+}
+
+h1
+{
+    background-color: orange;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 3px;
+}
+.anchors{
+    display: flex;
+    align-items: center;
+    
+}
+.anc{
+    margin: 0px 10px;
+    background-color: blue;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px ;
+    box-shadow: 10px 10px 10px gray;
+}
+img{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border: 3px solid black;
+    box-shadow: 10px 10px 10px gray;
+}
+.anc:hover{
+    color: beige;
+    background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#search{
+
+   width: 100px;
+   height: 30px;
+}

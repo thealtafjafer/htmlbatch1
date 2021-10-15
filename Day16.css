@@ -1,0 +1,9 @@
+.mainnav{
+    background-color: red !important;
+}
+.carousel{
+    height: 40vh !important;
+}
+img{
+    object-fit: cover;
+}
